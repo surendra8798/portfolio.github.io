@@ -27,15 +27,20 @@ function eraseRole() {
 }
 document.addEventListener("DOMContentLoaded", typeRole);
 
-
-
-
   window.addEventListener("DOMContentLoaded", () => {
     const skills = document.querySelectorAll(".skill");
 
     skills.forEach((skill, index) => {
       const percent = skill.getAttribute("data-percent");
       const progress = skill.querySelector(".progress");
+
+
+document.querySelectorAll('.skill').forEach(skill => {
+  const percent = skill.getAttribute('data-percent');
+  skill.querySelector('.progress').style.setProperty('--target-width', percent);
+});
+
+
 
       // Add staggered animation delay
       progress.style.animationDelay = `${index * 0.2}s`;
