@@ -442,6 +442,7 @@ section {
 }
 
 .experience-card {
+  max-height: 250px;
   background:linear-gradient(180deg,#f7e5d9, rgb(234, 236, 236), #f7e5d9);
   padding: 1rem;
   border-radius: 12px;
