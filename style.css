@@ -26,7 +26,7 @@ body {
 .sidebar {
   width: 220px;
   height: 100vh;
-  background: #ffffff;
+  background: #f7f5f4;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
   color: #fff;
   position: fixed;
@@ -72,7 +72,7 @@ body {
 .menu-btn {
   display: none;
   font-size: 20px;
-  background: #ff6600;
+  background: #f1985c;
   color: white;
   padding: 10px;
   border-radius: 6px;
@@ -175,12 +175,12 @@ section {
 }
 
 .filled {
-  background-color: #ff6600;
+  background-color: #fd6805;
   color: white;
 }
 
 .filled:hover {
-  background-color:#ff6600;
+  background-color:#f38740;
 }
 
 .outline {
@@ -268,7 +268,7 @@ section {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: #ff6600;
+  background: #f5c8ab;
     
   animation: glowRotate 4s linear infinite;
   z-index: -1;
@@ -359,7 +359,6 @@ section {
   font-size: 1.5rem;
   margin-bottom: 30px;
   font-weight: bold;
-
 }
 
 .container {
@@ -374,20 +373,20 @@ section {
 }
 
 .skill {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .skill-title {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-size: 1rem;
   color: #000;
 }
 
 .progress-bar {
   width: 100%;
-  height: 12px;
+  height: 8px; /* Reduced height */
   background: #382c20;
   border-radius: 50px;
   overflow: hidden;
@@ -397,13 +396,13 @@ section {
 .progress {
   height: 100%;
   width: 0%;
-  background:#e9854f;
+  background: #e9854f;
   background-size: 300% 300%;
   animation:
     fillBar 2s ease forwards,
     moveGradient 3s linear infinite;
   border-radius: 50px;
-  box-shadow: 0 0 12px #1f1d1b;
+  box-shadow: 0 0 10px #1f1d1b;
 }
 
 /* Fill width animation */
